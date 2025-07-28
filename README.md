@@ -1,14 +1,14 @@
-# JavaScript Stopwatch Project
+# ⏱️JavaScript Stopwatch Project
 Welcome to my interactive Stopwatch application built with pure JavaScript!
 
-# Technologies Used
+# 🚀Technologies Used
 HTML5
 
 CSS3
 
 JavaScript (ES6+)
 
-#⚡ Features
+# ⚡ Features
 🕒 Accurate time tracking (hours, minutes, seconds)
 
 🎮 Interactive controls (Start, Stop, Reset, Lap)
@@ -21,7 +21,7 @@ JavaScript (ES6+)
 
 ⚡ Smooth performance
 
-#🖥️ Preview
+# 🖥️ Preview
 🔗 Live Demo: Click here to view (https://github.com/mubashargithub/Stop-Watch/)
 
 📦 How to Run Locally
