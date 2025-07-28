@@ -1,0 +1,178 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 500vh;
+    width: 100%;
+    background-color: rgb(0, 36, 81);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.main{
+    height: 40% ;
+    width: 35%;
+    margin-top: 100px;
+    background-color: rgb(103, 255, 166);
+    border-radius: 15px;
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.laps{
+    height: auto;
+    width: 18%;
+    /* border: 2px solid red; */
+}
+
+.timer{
+    height: 60%;
+    width: 100%;
+    text-align: center;
+    /* border: 2px solid red; */
+    font-size: 4.8rem;
+}
+
+ol>li{
+    text-align: center;
+    /* border: 5px solid rgb(0, 255, 140); */
+    font-size: 2.1rem;
+    font-weight: 800;
+    color: rgb(255, 235, 108);
+    padding: 5px;
+}
+
+.controls{
+    height: 40%;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.controls>button{
+    font-size: 1.9rem;
+    font-weight: 700;
+    padding: 7px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#start{
+    background-color: rgb(168, 255, 102);
+}
+#stop{
+    background-color: rgb(255, 29, 29);
+}
+#reset{
+     background-color: rgb(255, 205, 77);
+}
+#lap{
+    background-color: rgb(58, 226, 255);
+}
+
+
+
+
+
+/* Media Queries for Responsive Design */
+
+/* For tablets and smaller desktops */
+@media (max-width: 1024px) {
+    .main {
+        width: 50% !important;
+    }
+    
+    .laps {
+        width: 25% !important;
+    }
+}
+
+/* For large mobile devices */
+@media (max-width: 768px) {
+    .main {
+        width: 70% !important;
+        margin-top: 70px !important;
+    }
+    
+    .laps {
+        width: 35% !important;
+    }
+    
+    .timer {
+        font-size: 4rem !important;
+    }
+    
+    .controls > button {
+        font-size: 1.6rem !important;
+        padding: 5px !important;
+        height: 45px !important;
+    }
+}
+
+/* For medium mobile devices */
+@media (max-width: 576px) {
+    .main {
+        width: 85% !important;
+        height: 35% !important;
+    }
+    
+    .laps {
+        width: 45% !important;
+    }
+    
+    .timer {
+        font-size: 3.5rem !important;
+    }
+    
+    .controls {
+        padding: 15px !important;
+    }
+    
+    ol > li {
+        font-size: 1.5rem !important;
+    }
+}
+
+/* For small mobile devices */
+@media (max-width: 400px) {
+    .container{
+        height: 130vh;
+    }
+    .main {
+        width: 90% !important;
+        height: 20% !important;
+        margin-top: 50px !important;
+    }
+    
+    .laps {
+        width: 60% !important;
+    }
+    
+    .timer {
+        height:40%;
+        font-size: 3rem !important;
+    }
+    
+    .controls {
+        flex-wrap: wrap;
+        padding: 10px !important;
+    }
+    
+    .controls > button {
+        font-size: 1.4rem !important;
+        height: 40px !important;
+        min-width: 70px;
+    }
+    
+    ol > li {
+        font-size: 1.3rem !important;
+    }
+}
