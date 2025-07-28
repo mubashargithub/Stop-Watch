@@ -1,7 +1,7 @@
-#JavaScript Stopwatch Project
+# JavaScript Stopwatch Project
 Welcome to my interactive Stopwatch application built with pure JavaScript!
 
-#Technologies Used
+# Technologies Used
 HTML5
 
 CSS3
